@@ -1,0 +1,15 @@
+.navbar{
+  /* width:80%; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.logo{
+  height:16%;
+  width:16%;
+  display:flex;
+  align-items: center;
+  padding-top:32px;
+}
