@@ -6,7 +6,7 @@
   overflow: visible;
   background-color: var(--color-bg-accent);
   padding-top:12%;
-  position: absolute;
+  position:sticky;
   align-items: stretch;
 }
 .titleContainer{
