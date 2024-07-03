@@ -1,13 +1,13 @@
 .section{
+  inset: 0px;
   display:flex;
   width:35%;
-  height:1000px;
-  transform: translate(0px,-135px);
-  overflow: hidden;
+  height:100%;
+  overflow: visible;
   background-color: var(--color-bg-accent);
-  padding-top:150px;
-  justify-content: center;
-
+  padding-top:12%;
+  position: absolute;
+  align-items: stretch;
 }
 .titleContainer{
   display:flex;
@@ -15,18 +15,35 @@
   padding:20px 20px 20px 20px; 
   margin:30px;
   width:80%;
-  height:60%;
+  height:60vh;
   border-radius: 12px;
-  justify-content: center;
-  
+  align-items: center;
+  flex-direction: column;
   background-color: var(--color-bg);
 }
+
 .title{
+  margin-top:40px;
   display: flex;
   justify-content: center;
-  width:100%;
-  
+  align-items: center;
+  width:70%;
+  padding: 10px;
+  height:25%;
+  background-color: var(--color-primary);
+  color:var(--color-text-white);
+  border-radius: 12px;
+
+  font-size: 2rem;
 }
+
+p {
+  margin-top:40px;
+  margin-bottom:20px;
+  width:70%;
+  color:var(--color-text);
+}
+
 .squareOne{
   display: flex;
   height: 63px;
@@ -38,7 +55,12 @@
 }
 .mathbook{
   display: flex;
-  width:100px;
-  height:100px;
-  justify-content: center;
+  width:45%;
+  height:50%;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 830px){
+  
 }
