@@ -1,13 +1,14 @@
 .section{
-  inset: 0px;
-  display:flex;
+  /* inset: 0px; */
+  /* display:flex; */
   width:35%;
-  height:100%;
-  overflow: visible;
-  background-color: var(--color-bg-accent);
-  padding-top:12%;
-  position:sticky;
-  align-items: stretch;
+  /* height:100%; */
+  /* overflow: visible; */
+  /* flex-direction: column; */
+  /* background-color: var(--color-bg-accent); */
+
+  /* position:absolute; */
+  /* align-items: stretch; */
 }
 .titleContainer{
   display:flex;
@@ -49,7 +50,7 @@ p {
   height: 63px;
   width:63px;
   background-color: var(--color-secondary);
-  transform: translate(60px, 0px);
+  transform: translate(30px, 50px);
   border-radius: 12px;
 
 }

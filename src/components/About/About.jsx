@@ -23,6 +23,7 @@ export const About = () =>{
       
       
       <div className={styles.squareTwo}>
+        
 
       </div>
       

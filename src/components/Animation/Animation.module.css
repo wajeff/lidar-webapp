@@ -1,8 +1,16 @@
 .animationContainer{
+  display: flex;
+  width:65%;
+  /* margin-bottom:5em; */
+  /* flex-direction: column; */
 
 }
-
 .animation{
-  
-  /* position:static; */
+  margin: 5em 11em 5em 11em;
+  height:60vh;
+  width: 80vh;
+  overflow:hidden;
+  border-radius:50px;
+  position: relative;
+
 }
